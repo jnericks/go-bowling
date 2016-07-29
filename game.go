@@ -60,7 +60,6 @@ func (game *Game) addFrame(pins int) {
 	}
 
 	f := frame{
-		prev:   prev,
 		number: number,
 		pins:   []int{pins},
 	}

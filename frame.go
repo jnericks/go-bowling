@@ -1,7 +1,6 @@
 package bowling
 
 type frame struct {
-	prev   *frame
 	number int
 	pins   []int
 	next   *frame
